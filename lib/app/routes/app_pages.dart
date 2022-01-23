@@ -60,7 +60,7 @@ class AppPages {
   // static const INITIAL = Routes.SPLASH;
 
   //TODO: temp para desenvolvimento
-  static const INITIAL = Routes.SPLASH;
+  static const INITIAL = Routes.HOME;
 
   static final routes = [
     GetPage(name: Routes.SPLASH, page: () => SplashPage(), binding: SplashBinding()),
